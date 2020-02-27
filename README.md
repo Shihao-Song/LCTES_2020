@@ -1,3 +1,0 @@
-Run:
-
-bash compile.bash
