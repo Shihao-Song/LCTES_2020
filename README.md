@@ -1,6 +1,3 @@
-Simply type:
-./sdf3flow-sdf-printf
+Run:
 
-Or:
-./sdf3flow-sdf-modified
-
+bash compile.bash
