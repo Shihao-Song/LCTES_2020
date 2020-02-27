@@ -208,11 +208,11 @@ namespace SDF
 
                 case FlowStaticOrderScheduleTiles:
                     constructStaticOrderScheduleTiles();
-                    exit(0);
                     break;
 
                 case FlowAllocateTDMAtimeSlices:
                     allocateTDMAtimeSlices();
+                    exit(0);
                     break;
 
                 case FlowOptimizeStorageSpaceAllocations:
