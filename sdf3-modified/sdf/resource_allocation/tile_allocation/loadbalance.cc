@@ -2486,14 +2486,14 @@ namespace SDF
             // Processor inside the tile
             if (p != NULL)
             {
-                // std::cerr << "[Hacking] Tile (" << t->getName() << "): ";
+                std::cerr << "[Shihao-Mapping-Original] Tile (" << t->getName() << "): ";
                 auto &schedule = p->getSchedule();
                 for (auto iter = schedule.begin(); iter != schedule.end(); iter++)
                 {
-                    // std::cerr << iter->actor->getName() << " ";
+                    std::cerr << iter->actor->getName() << " ";
                     actor_to_tile_mapping[iter->actor->getName()] = t->getName();
                 }
-                // std::cerr << std::endl;
+                std::cerr << std::endl;
             }
         }
 
@@ -2581,7 +2581,7 @@ namespace SDF
             // Processor inside the tile
             if (p != NULL)
             {
-                std::cerr << "[Shihao-Mapping] Tile (" << t->getName() << "): ";
+                std::cerr << "[Shihao-Mapping-New] Tile (" << t->getName() << "): ";
                 auto &schedule = p->getSchedule();
                 for (auto iter = schedule.begin(); iter != schedule.end(); iter++)
                 {
