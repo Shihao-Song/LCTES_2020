@@ -212,6 +212,7 @@ namespace SDF
 
                 case FlowAllocateTDMAtimeSlices:
                     allocateTDMAtimeSlices();
+                    exit(0);
                     break;
 
                 case FlowOptimizeStorageSpaceAllocations:
