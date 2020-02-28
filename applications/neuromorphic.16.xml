@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<!--
+  Architecture Graph Generator (v1.0)
+
+  Settings:
+    type:   mesh
+    X:      4
+    Y:      4
+-->
+<sdf3 type='sdf' version='1.0'
+     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+      xsi:noNamespaceSchemaLocation='http://www.es.ele.tue.nl/sdf3/xsd/sdf3-sdf.xsd'>
+  <architectureGraph name='random_graph'>
+    <tile name='tile_0'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_1'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_2'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_3'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_4'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_5'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_6'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_7'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_8'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_9'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_10'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_11'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_12'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_13'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_14'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <tile name='tile_15'>
+      <processor name='neuro_synaptic_core' type='crossbar'>
+        <arbitration type='TDMA' wheelsize='8'/>
+      </processor>
+      <memory name='mem' size='512'/>
+      <networkInterface name='ni' nrConnections='8' inBandwidth='96' outBandwidth='96'/>
+    </tile>
+    <connection name='con_0' srcTile='tile_0' dstTile='tile_1' delay='3'/>
+    <connection name='con_1' srcTile='tile_0' dstTile='tile_2' delay='4'/>
+    <connection name='con_2' srcTile='tile_0' dstTile='tile_3' delay='5'/>
+    <connection name='con_3' srcTile='tile_0' dstTile='tile_4' delay='3'/>
+    <connection name='con_4' srcTile='tile_0' dstTile='tile_5' delay='4'/>
+    <connection name='con_5' srcTile='tile_0' dstTile='tile_6' delay='5'/>
+    <connection name='con_6' srcTile='tile_0' dstTile='tile_7' delay='6'/>
+    <connection name='con_7' srcTile='tile_0' dstTile='tile_8' delay='4'/>
+    <connection name='con_8' srcTile='tile_0' dstTile='tile_9' delay='5'/>
+    <connection name='con_9' srcTile='tile_0' dstTile='tile_10' delay='6'/>
+    <connection name='con_10' srcTile='tile_0' dstTile='tile_11' delay='7'/>
+    <connection name='con_11' srcTile='tile_0' dstTile='tile_12' delay='5'/>
+    <connection name='con_12' srcTile='tile_0' dstTile='tile_13' delay='6'/>
+    <connection name='con_13' srcTile='tile_0' dstTile='tile_14' delay='7'/>
+    <connection name='con_14' srcTile='tile_0' dstTile='tile_15' delay='8'/>
+    <connection name='con_15' srcTile='tile_1' dstTile='tile_0' delay='3'/>
+    <connection name='con_16' srcTile='tile_1' dstTile='tile_2' delay='3'/>
+    <connection name='con_17' srcTile='tile_1' dstTile='tile_3' delay='4'/>
+    <connection name='con_18' srcTile='tile_1' dstTile='tile_4' delay='4'/>
+    <connection name='con_19' srcTile='tile_1' dstTile='tile_5' delay='3'/>
+    <connection name='con_20' srcTile='tile_1' dstTile='tile_6' delay='4'/>
+    <connection name='con_21' srcTile='tile_1' dstTile='tile_7' delay='5'/>
+    <connection name='con_22' srcTile='tile_1' dstTile='tile_8' delay='5'/>
+    <connection name='con_23' srcTile='tile_1' dstTile='tile_9' delay='4'/>
+    <connection name='con_24' srcTile='tile_1' dstTile='tile_10' delay='5'/>
+    <connection name='con_25' srcTile='tile_1' dstTile='tile_11' delay='6'/>
+    <connection name='con_26' srcTile='tile_1' dstTile='tile_12' delay='6'/>
+    <connection name='con_27' srcTile='tile_1' dstTile='tile_13' delay='5'/>
+    <connection name='con_28' srcTile='tile_1' dstTile='tile_14' delay='6'/>
+    <connection name='con_29' srcTile='tile_1' dstTile='tile_15' delay='7'/>
+    <connection name='con_30' srcTile='tile_2' dstTile='tile_0' delay='4'/>
+    <connection name='con_31' srcTile='tile_2' dstTile='tile_1' delay='3'/>
+    <connection name='con_32' srcTile='tile_2' dstTile='tile_3' delay='3'/>
+    <connection name='con_33' srcTile='tile_2' dstTile='tile_4' delay='5'/>
+    <connection name='con_34' srcTile='tile_2' dstTile='tile_5' delay='4'/>
+    <connection name='con_35' srcTile='tile_2' dstTile='tile_6' delay='3'/>
+    <connection name='con_36' srcTile='tile_2' dstTile='tile_7' delay='4'/>
+    <connection name='con_37' srcTile='tile_2' dstTile='tile_8' delay='6'/>
+    <connection name='con_38' srcTile='tile_2' dstTile='tile_9' delay='5'/>
+    <connection name='con_39' srcTile='tile_2' dstTile='tile_10' delay='4'/>
+    <connection name='con_40' srcTile='tile_2' dstTile='tile_11' delay='5'/>
+    <connection name='con_41' srcTile='tile_2' dstTile='tile_12' delay='7'/>
+    <connection name='con_42' srcTile='tile_2' dstTile='tile_13' delay='6'/>
+    <connection name='con_43' srcTile='tile_2' dstTile='tile_14' delay='5'/>
+    <connection name='con_44' srcTile='tile_2' dstTile='tile_15' delay='6'/>
+    <connection name='con_45' srcTile='tile_3' dstTile='tile_0' delay='5'/>
+    <connection name='con_46' srcTile='tile_3' dstTile='tile_1' delay='4'/>
+    <connection name='con_47' srcTile='tile_3' dstTile='tile_2' delay='3'/>
+    <connection name='con_48' srcTile='tile_3' dstTile='tile_4' delay='6'/>
+    <connection name='con_49' srcTile='tile_3' dstTile='tile_5' delay='5'/>
+    <connection name='con_50' srcTile='tile_3' dstTile='tile_6' delay='4'/>
+    <connection name='con_51' srcTile='tile_3' dstTile='tile_7' delay='3'/>
+    <connection name='con_52' srcTile='tile_3' dstTile='tile_8' delay='7'/>
+    <connection name='con_53' srcTile='tile_3' dstTile='tile_9' delay='6'/>
+    <connection name='con_54' srcTile='tile_3' dstTile='tile_10' delay='5'/>
+    <connection name='con_55' srcTile='tile_3' dstTile='tile_11' delay='4'/>
+    <connection name='con_56' srcTile='tile_3' dstTile='tile_12' delay='8'/>
+    <connection name='con_57' srcTile='tile_3' dstTile='tile_13' delay='7'/>
+    <connection name='con_58' srcTile='tile_3' dstTile='tile_14' delay='6'/>
+    <connection name='con_59' srcTile='tile_3' dstTile='tile_15' delay='5'/>
+    <connection name='con_60' srcTile='tile_4' dstTile='tile_0' delay='3'/>
+    <connection name='con_61' srcTile='tile_4' dstTile='tile_1' delay='4'/>
+    <connection name='con_62' srcTile='tile_4' dstTile='tile_2' delay='5'/>
+    <connection name='con_63' srcTile='tile_4' dstTile='tile_3' delay='6'/>
+    <connection name='con_64' srcTile='tile_4' dstTile='tile_5' delay='3'/>
+    <connection name='con_65' srcTile='tile_4' dstTile='tile_6' delay='4'/>
+    <connection name='con_66' srcTile='tile_4' dstTile='tile_7' delay='5'/>
+    <connection name='con_67' srcTile='tile_4' dstTile='tile_8' delay='3'/>
+    <connection name='con_68' srcTile='tile_4' dstTile='tile_9' delay='4'/>
+    <connection name='con_69' srcTile='tile_4' dstTile='tile_10' delay='5'/>
+    <connection name='con_70' srcTile='tile_4' dstTile='tile_11' delay='6'/>
+    <connection name='con_71' srcTile='tile_4' dstTile='tile_12' delay='4'/>
+    <connection name='con_72' srcTile='tile_4' dstTile='tile_13' delay='5'/>
+    <connection name='con_73' srcTile='tile_4' dstTile='tile_14' delay='6'/>
+    <connection name='con_74' srcTile='tile_4' dstTile='tile_15' delay='7'/>
+    <connection name='con_75' srcTile='tile_5' dstTile='tile_0' delay='4'/>
+    <connection name='con_76' srcTile='tile_5' dstTile='tile_1' delay='3'/>
+    <connection name='con_77' srcTile='tile_5' dstTile='tile_2' delay='4'/>
+    <connection name='con_78' srcTile='tile_5' dstTile='tile_3' delay='5'/>
+    <connection name='con_79' srcTile='tile_5' dstTile='tile_4' delay='3'/>
+    <connection name='con_80' srcTile='tile_5' dstTile='tile_6' delay='3'/>
+    <connection name='con_81' srcTile='tile_5' dstTile='tile_7' delay='4'/>
+    <connection name='con_82' srcTile='tile_5' dstTile='tile_8' delay='4'/>
+    <connection name='con_83' srcTile='tile_5' dstTile='tile_9' delay='3'/>
+    <connection name='con_84' srcTile='tile_5' dstTile='tile_10' delay='4'/>
+    <connection name='con_85' srcTile='tile_5' dstTile='tile_11' delay='5'/>
+    <connection name='con_86' srcTile='tile_5' dstTile='tile_12' delay='5'/>
+    <connection name='con_87' srcTile='tile_5' dstTile='tile_13' delay='4'/>
+    <connection name='con_88' srcTile='tile_5' dstTile='tile_14' delay='5'/>
+    <connection name='con_89' srcTile='tile_5' dstTile='tile_15' delay='6'/>
+    <connection name='con_90' srcTile='tile_6' dstTile='tile_0' delay='5'/>
+    <connection name='con_91' srcTile='tile_6' dstTile='tile_1' delay='4'/>
+    <connection name='con_92' srcTile='tile_6' dstTile='tile_2' delay='3'/>
+    <connection name='con_93' srcTile='tile_6' dstTile='tile_3' delay='4'/>
+    <connection name='con_94' srcTile='tile_6' dstTile='tile_4' delay='4'/>
+    <connection name='con_95' srcTile='tile_6' dstTile='tile_5' delay='3'/>
+    <connection name='con_96' srcTile='tile_6' dstTile='tile_7' delay='3'/>
+    <connection name='con_97' srcTile='tile_6' dstTile='tile_8' delay='5'/>
+    <connection name='con_98' srcTile='tile_6' dstTile='tile_9' delay='4'/>
+    <connection name='con_99' srcTile='tile_6' dstTile='tile_10' delay='3'/>
+    <connection name='con_100' srcTile='tile_6' dstTile='tile_11' delay='4'/>
+    <connection name='con_101' srcTile='tile_6' dstTile='tile_12' delay='6'/>
+    <connection name='con_102' srcTile='tile_6' dstTile='tile_13' delay='5'/>
+    <connection name='con_103' srcTile='tile_6' dstTile='tile_14' delay='4'/>
+    <connection name='con_104' srcTile='tile_6' dstTile='tile_15' delay='5'/>
+    <connection name='con_105' srcTile='tile_7' dstTile='tile_0' delay='6'/>
+    <connection name='con_106' srcTile='tile_7' dstTile='tile_1' delay='5'/>
+    <connection name='con_107' srcTile='tile_7' dstTile='tile_2' delay='4'/>
+    <connection name='con_108' srcTile='tile_7' dstTile='tile_3' delay='3'/>
+    <connection name='con_109' srcTile='tile_7' dstTile='tile_4' delay='5'/>
+    <connection name='con_110' srcTile='tile_7' dstTile='tile_5' delay='4'/>
+    <connection name='con_111' srcTile='tile_7' dstTile='tile_6' delay='3'/>
+    <connection name='con_112' srcTile='tile_7' dstTile='tile_8' delay='6'/>
+    <connection name='con_113' srcTile='tile_7' dstTile='tile_9' delay='5'/>
+    <connection name='con_114' srcTile='tile_7' dstTile='tile_10' delay='4'/>
+    <connection name='con_115' srcTile='tile_7' dstTile='tile_11' delay='3'/>
+    <connection name='con_116' srcTile='tile_7' dstTile='tile_12' delay='7'/>
+    <connection name='con_117' srcTile='tile_7' dstTile='tile_13' delay='6'/>
+    <connection name='con_118' srcTile='tile_7' dstTile='tile_14' delay='5'/>
+    <connection name='con_119' srcTile='tile_7' dstTile='tile_15' delay='4'/>
+    <connection name='con_120' srcTile='tile_8' dstTile='tile_0' delay='4'/>
+    <connection name='con_121' srcTile='tile_8' dstTile='tile_1' delay='5'/>
+    <connection name='con_122' srcTile='tile_8' dstTile='tile_2' delay='6'/>
+    <connection name='con_123' srcTile='tile_8' dstTile='tile_3' delay='7'/>
+    <connection name='con_124' srcTile='tile_8' dstTile='tile_4' delay='3'/>
+    <connection name='con_125' srcTile='tile_8' dstTile='tile_5' delay='4'/>
+    <connection name='con_126' srcTile='tile_8' dstTile='tile_6' delay='5'/>
+    <connection name='con_127' srcTile='tile_8' dstTile='tile_7' delay='6'/>
+    <connection name='con_128' srcTile='tile_8' dstTile='tile_9' delay='3'/>
+    <connection name='con_129' srcTile='tile_8' dstTile='tile_10' delay='4'/>
+    <connection name='con_130' srcTile='tile_8' dstTile='tile_11' delay='5'/>
+    <connection name='con_131' srcTile='tile_8' dstTile='tile_12' delay='3'/>
+    <connection name='con_132' srcTile='tile_8' dstTile='tile_13' delay='4'/>
+    <connection name='con_133' srcTile='tile_8' dstTile='tile_14' delay='5'/>
+    <connection name='con_134' srcTile='tile_8' dstTile='tile_15' delay='6'/>
+    <connection name='con_135' srcTile='tile_9' dstTile='tile_0' delay='5'/>
+    <connection name='con_136' srcTile='tile_9' dstTile='tile_1' delay='4'/>
+    <connection name='con_137' srcTile='tile_9' dstTile='tile_2' delay='5'/>
+    <connection name='con_138' srcTile='tile_9' dstTile='tile_3' delay='6'/>
+    <connection name='con_139' srcTile='tile_9' dstTile='tile_4' delay='4'/>
+    <connection name='con_140' srcTile='tile_9' dstTile='tile_5' delay='3'/>
+    <connection name='con_141' srcTile='tile_9' dstTile='tile_6' delay='4'/>
+    <connection name='con_142' srcTile='tile_9' dstTile='tile_7' delay='5'/>
+    <connection name='con_143' srcTile='tile_9' dstTile='tile_8' delay='3'/>
+    <connection name='con_144' srcTile='tile_9' dstTile='tile_10' delay='3'/>
+    <connection name='con_145' srcTile='tile_9' dstTile='tile_11' delay='4'/>
+    <connection name='con_146' srcTile='tile_9' dstTile='tile_12' delay='4'/>
+    <connection name='con_147' srcTile='tile_9' dstTile='tile_13' delay='3'/>
+    <connection name='con_148' srcTile='tile_9' dstTile='tile_14' delay='4'/>
+    <connection name='con_149' srcTile='tile_9' dstTile='tile_15' delay='5'/>
+    <connection name='con_150' srcTile='tile_10' dstTile='tile_0' delay='6'/>
+    <connection name='con_151' srcTile='tile_10' dstTile='tile_1' delay='5'/>
+    <connection name='con_152' srcTile='tile_10' dstTile='tile_2' delay='4'/>
+    <connection name='con_153' srcTile='tile_10' dstTile='tile_3' delay='5'/>
+    <connection name='con_154' srcTile='tile_10' dstTile='tile_4' delay='5'/>
+    <connection name='con_155' srcTile='tile_10' dstTile='tile_5' delay='4'/>
+    <connection name='con_156' srcTile='tile_10' dstTile='tile_6' delay='3'/>
+    <connection name='con_157' srcTile='tile_10' dstTile='tile_7' delay='4'/>
+    <connection name='con_158' srcTile='tile_10' dstTile='tile_8' delay='4'/>
+    <connection name='con_159' srcTile='tile_10' dstTile='tile_9' delay='3'/>
+    <connection name='con_160' srcTile='tile_10' dstTile='tile_11' delay='3'/>
+    <connection name='con_161' srcTile='tile_10' dstTile='tile_12' delay='5'/>
+    <connection name='con_162' srcTile='tile_10' dstTile='tile_13' delay='4'/>
+    <connection name='con_163' srcTile='tile_10' dstTile='tile_14' delay='3'/>
+    <connection name='con_164' srcTile='tile_10' dstTile='tile_15' delay='4'/>
+    <connection name='con_165' srcTile='tile_11' dstTile='tile_0' delay='7'/>
+    <connection name='con_166' srcTile='tile_11' dstTile='tile_1' delay='6'/>
+    <connection name='con_167' srcTile='tile_11' dstTile='tile_2' delay='5'/>
+    <connection name='con_168' srcTile='tile_11' dstTile='tile_3' delay='4'/>
+    <connection name='con_169' srcTile='tile_11' dstTile='tile_4' delay='6'/>
+    <connection name='con_170' srcTile='tile_11' dstTile='tile_5' delay='5'/>
+    <connection name='con_171' srcTile='tile_11' dstTile='tile_6' delay='4'/>
+    <connection name='con_172' srcTile='tile_11' dstTile='tile_7' delay='3'/>
+    <connection name='con_173' srcTile='tile_11' dstTile='tile_8' delay='5'/>
+    <connection name='con_174' srcTile='tile_11' dstTile='tile_9' delay='4'/>
+    <connection name='con_175' srcTile='tile_11' dstTile='tile_10' delay='3'/>
+    <connection name='con_176' srcTile='tile_11' dstTile='tile_12' delay='6'/>
+    <connection name='con_177' srcTile='tile_11' dstTile='tile_13' delay='5'/>
+    <connection name='con_178' srcTile='tile_11' dstTile='tile_14' delay='4'/>
+    <connection name='con_179' srcTile='tile_11' dstTile='tile_15' delay='3'/>
+    <connection name='con_180' srcTile='tile_12' dstTile='tile_0' delay='5'/>
+    <connection name='con_181' srcTile='tile_12' dstTile='tile_1' delay='6'/>
+    <connection name='con_182' srcTile='tile_12' dstTile='tile_2' delay='7'/>
+    <connection name='con_183' srcTile='tile_12' dstTile='tile_3' delay='8'/>
+    <connection name='con_184' srcTile='tile_12' dstTile='tile_4' delay='4'/>
+    <connection name='con_185' srcTile='tile_12' dstTile='tile_5' delay='5'/>
+    <connection name='con_186' srcTile='tile_12' dstTile='tile_6' delay='6'/>
+    <connection name='con_187' srcTile='tile_12' dstTile='tile_7' delay='7'/>
+    <connection name='con_188' srcTile='tile_12' dstTile='tile_8' delay='3'/>
+    <connection name='con_189' srcTile='tile_12' dstTile='tile_9' delay='4'/>
+    <connection name='con_190' srcTile='tile_12' dstTile='tile_10' delay='5'/>
+    <connection name='con_191' srcTile='tile_12' dstTile='tile_11' delay='6'/>
+    <connection name='con_192' srcTile='tile_12' dstTile='tile_13' delay='3'/>
+    <connection name='con_193' srcTile='tile_12' dstTile='tile_14' delay='4'/>
+    <connection name='con_194' srcTile='tile_12' dstTile='tile_15' delay='5'/>
+    <connection name='con_195' srcTile='tile_13' dstTile='tile_0' delay='6'/>
+    <connection name='con_196' srcTile='tile_13' dstTile='tile_1' delay='5'/>
+    <connection name='con_197' srcTile='tile_13' dstTile='tile_2' delay='6'/>
+    <connection name='con_198' srcTile='tile_13' dstTile='tile_3' delay='7'/>
+    <connection name='con_199' srcTile='tile_13' dstTile='tile_4' delay='5'/>
+    <connection name='con_200' srcTile='tile_13' dstTile='tile_5' delay='4'/>
+    <connection name='con_201' srcTile='tile_13' dstTile='tile_6' delay='5'/>
+    <connection name='con_202' srcTile='tile_13' dstTile='tile_7' delay='6'/>
+    <connection name='con_203' srcTile='tile_13' dstTile='tile_8' delay='4'/>
+    <connection name='con_204' srcTile='tile_13' dstTile='tile_9' delay='3'/>
+    <connection name='con_205' srcTile='tile_13' dstTile='tile_10' delay='4'/>
+    <connection name='con_206' srcTile='tile_13' dstTile='tile_11' delay='5'/>
+    <connection name='con_207' srcTile='tile_13' dstTile='tile_12' delay='3'/>
+    <connection name='con_208' srcTile='tile_13' dstTile='tile_14' delay='3'/>
+    <connection name='con_209' srcTile='tile_13' dstTile='tile_15' delay='4'/>
+    <connection name='con_210' srcTile='tile_14' dstTile='tile_0' delay='7'/>
+    <connection name='con_211' srcTile='tile_14' dstTile='tile_1' delay='6'/>
+    <connection name='con_212' srcTile='tile_14' dstTile='tile_2' delay='5'/>
+    <connection name='con_213' srcTile='tile_14' dstTile='tile_3' delay='6'/>
+    <connection name='con_214' srcTile='tile_14' dstTile='tile_4' delay='6'/>
+    <connection name='con_215' srcTile='tile_14' dstTile='tile_5' delay='5'/>
+    <connection name='con_216' srcTile='tile_14' dstTile='tile_6' delay='4'/>
+    <connection name='con_217' srcTile='tile_14' dstTile='tile_7' delay='5'/>
+    <connection name='con_218' srcTile='tile_14' dstTile='tile_8' delay='5'/>
+    <connection name='con_219' srcTile='tile_14' dstTile='tile_9' delay='4'/>
+    <connection name='con_220' srcTile='tile_14' dstTile='tile_10' delay='3'/>
+    <connection name='con_221' srcTile='tile_14' dstTile='tile_11' delay='4'/>
+    <connection name='con_222' srcTile='tile_14' dstTile='tile_12' delay='4'/>
+    <connection name='con_223' srcTile='tile_14' dstTile='tile_13' delay='3'/>
+    <connection name='con_224' srcTile='tile_14' dstTile='tile_15' delay='3'/>
+    <connection name='con_225' srcTile='tile_15' dstTile='tile_0' delay='8'/>
+    <connection name='con_226' srcTile='tile_15' dstTile='tile_1' delay='7'/>
+    <connection name='con_227' srcTile='tile_15' dstTile='tile_2' delay='6'/>
+    <connection name='con_228' srcTile='tile_15' dstTile='tile_3' delay='5'/>
+    <connection name='con_229' srcTile='tile_15' dstTile='tile_4' delay='7'/>
+    <connection name='con_230' srcTile='tile_15' dstTile='tile_5' delay='6'/>
+    <connection name='con_231' srcTile='tile_15' dstTile='tile_6' delay='5'/>
+    <connection name='con_232' srcTile='tile_15' dstTile='tile_7' delay='4'/>
+    <connection name='con_233' srcTile='tile_15' dstTile='tile_8' delay='6'/>
+    <connection name='con_234' srcTile='tile_15' dstTile='tile_9' delay='5'/>
+    <connection name='con_235' srcTile='tile_15' dstTile='tile_10' delay='4'/>
+    <connection name='con_236' srcTile='tile_15' dstTile='tile_11' delay='3'/>
+    <connection name='con_237' srcTile='tile_15' dstTile='tile_12' delay='5'/>
+    <connection name='con_238' srcTile='tile_15' dstTile='tile_13' delay='4'/>
+    <connection name='con_239' srcTile='tile_15' dstTile='tile_14' delay='3'/>
+    <network slotTableSize='8192' packetHeaderSize='256' flitSize='256' reconfigurationTimeNI='10'>
+      <router name='r0'/>
+      <router name='r1'/>
+      <router name='r2'/>
+      <router name='r3'/>
+      <router name='r4'/>
+      <router name='r5'/>
+      <router name='r6'/>
+      <router name='r7'/>
+      <router name='r8'/>
+      <router name='r9'/>
+      <router name='r10'/>
+      <router name='r11'/>
+      <router name='r12'/>
+      <router name='r13'/>
+      <router name='r14'/>
+      <router name='r15'/>
+      <link name='l0' src='tile_0' dst='r0'/>
+      <link name='l1' src='r0' dst='tile_0'/>
+      <link name='l2' src='tile_1' dst='r1'/>
+      <link name='l3' src='r1' dst='tile_1'/>
+      <link name='l4' src='tile_2' dst='r2'/>
+      <link name='l5' src='r2' dst='tile_2'/>
+      <link name='l6' src='tile_3' dst='r3'/>
+      <link name='l7' src='r3' dst='tile_3'/>
+      <link name='l8' src='tile_4' dst='r4'/>
+      <link name='l9' src='r4' dst='tile_4'/>
+      <link name='l10' src='tile_5' dst='r5'/>
+      <link name='l11' src='r5' dst='tile_5'/>
+      <link name='l12' src='tile_6' dst='r6'/>
+      <link name='l13' src='r6' dst='tile_6'/>
+      <link name='l14' src='tile_7' dst='r7'/>
+      <link name='l15' src='r7' dst='tile_7'/>
+      <link name='l16' src='tile_8' dst='r8'/>
+      <link name='l17' src='r8' dst='tile_8'/>
+      <link name='l18' src='tile_9' dst='r9'/>
+      <link name='l19' src='r9' dst='tile_9'/>
+      <link name='l20' src='tile_10' dst='r10'/>
+      <link name='l21' src='r10' dst='tile_10'/>
+      <link name='l22' src='tile_11' dst='r11'/>
+      <link name='l23' src='r11' dst='tile_11'/>
+      <link name='l24' src='tile_12' dst='r12'/>
+      <link name='l25' src='r12' dst='tile_12'/>
+      <link name='l26' src='tile_13' dst='r13'/>
+      <link name='l27' src='r13' dst='tile_13'/>
+      <link name='l28' src='tile_14' dst='r14'/>
+      <link name='l29' src='r14' dst='tile_14'/>
+      <link name='l30' src='tile_15' dst='r15'/>
+      <link name='l31' src='r15' dst='tile_15'/>
+      <link name='l32' src='r0' dst='r4'/>
+      <link name='l33' src='r0' dst='r1'/>
+      <link name='l34' src='r1' dst='r5'/>
+      <link name='l35' src='r1' dst='r0'/>
+      <link name='l36' src='r1' dst='r2'/>
+      <link name='l37' src='r2' dst='r6'/>
+      <link name='l38' src='r2' dst='r1'/>
+      <link name='l39' src='r2' dst='r3'/>
+      <link name='l40' src='r3' dst='r7'/>
+      <link name='l41' src='r3' dst='r2'/>
+      <link name='l42' src='r4' dst='r0'/>
+      <link name='l43' src='r4' dst='r8'/>
+      <link name='l44' src='r4' dst='r5'/>
+      <link name='l45' src='r5' dst='r1'/>
+      <link name='l46' src='r5' dst='r9'/>
+      <link name='l47' src='r5' dst='r4'/>
+      <link name='l48' src='r5' dst='r6'/>
+      <link name='l49' src='r6' dst='r2'/>
+      <link name='l50' src='r6' dst='r10'/>
+      <link name='l51' src='r6' dst='r5'/>
+      <link name='l52' src='r6' dst='r7'/>
+      <link name='l53' src='r7' dst='r3'/>
+      <link name='l54' src='r7' dst='r11'/>
+      <link name='l55' src='r7' dst='r6'/>
+      <link name='l56' src='r8' dst='r4'/>
+      <link name='l57' src='r8' dst='r12'/>
+      <link name='l58' src='r8' dst='r9'/>
+      <link name='l59' src='r9' dst='r5'/>
+      <link name='l60' src='r9' dst='r13'/>
+      <link name='l61' src='r9' dst='r8'/>
+      <link name='l62' src='r9' dst='r10'/>
+      <link name='l63' src='r10' dst='r6'/>
+      <link name='l64' src='r10' dst='r14'/>
+      <link name='l65' src='r10' dst='r9'/>
+      <link name='l66' src='r10' dst='r11'/>
+      <link name='l67' src='r11' dst='r7'/>
+      <link name='l68' src='r11' dst='r15'/>
+      <link name='l69' src='r11' dst='r10'/>
+      <link name='l70' src='r12' dst='r8'/>
+      <link name='l71' src='r12' dst='r13'/>
+      <link name='l72' src='r13' dst='r9'/>
+      <link name='l73' src='r13' dst='r12'/>
+      <link name='l74' src='r13' dst='r14'/>
+      <link name='l75' src='r14' dst='r10'/>
+      <link name='l76' src='r14' dst='r13'/>
+      <link name='l77' src='r14' dst='r15'/>
+      <link name='l78' src='r15' dst='r11'/>
+      <link name='l79' src='r15' dst='r14'/>
+    </network>
+  </architectureGraph>
+</sdf3>
