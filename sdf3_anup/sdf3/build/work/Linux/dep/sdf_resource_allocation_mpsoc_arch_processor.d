@@ -39,8 +39,8 @@ sdf_resource_allocation_mpsoc_arch_processor.o: processor.cc processor.h compone
  ../../../base/maxplus/mptype.h ../../../base/maxplus/../basic_types.h \
  ../../../base/maxplus/../string/cstring.h \
  ../../../base/maxplus/mpmatrix.h ../../../base/lookup/clookup.h \
- /home/anup/Research/sdf3_new/sdf3/sdf/basic_types.h binding.h \
- ../../base/timed/graph.h ../../base/timed/channel.h \
+ /home/shihao-song/Documents/Research/Tools_Development/SDF3/experiments/expr_1/sdf3_anup/sdf3/sdf/basic_types.h \
+ binding.h ../../base/timed/graph.h ../../base/timed/channel.h \
  ../../base/timed/../untimed/graph.h \
  ../../base/timed/../untimed/channel.h \
  ../../base/timed/../untimed/actor.h ../../base/timed/../untimed/port.h \
