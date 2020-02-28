@@ -2499,7 +2499,7 @@ namespace SDF
                 std::cerr << std::endl;
             }
         }
-        cout << "[INFO   ] Shihao took: ";
+        cout << "[INFO   ] Shihao schedule took: ";
         printTimer(cout, &timer);
         cout << endl;
 
