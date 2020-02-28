@@ -2477,7 +2477,7 @@ namespace SDF
 
         minimizeStaticOrderSchedules(archGraph);
         stopTimer(&timer);
-/*
+
         std::unordered_map<std::string, std::string> actor_to_tile_mapping;
         // std::cerr << "[Hacking] Original static order." << std::endl;
         for (TilesIter iter = archGraph->tilesBegin();
@@ -2502,7 +2502,7 @@ namespace SDF
         cout << "[INFO   ] Shihao took: ";
         printTimer(cout, &timer);
         cout << endl;
-*/
+
         return true;
     }
 
